@@ -1,0 +1,13 @@
+/* Fichier .gitignore pour le projet */
+node_modules/
+.DS_Store
+*.log
+dist/
+build/
+.env
+.env.local
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

@@ -1,0 +1,34 @@
+# Robots.txt for Women in Climate Change
+# Configuration pour les moteurs de recherche
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /activities.html
+Allow: /contact.html
+Allow: /legal-notice.html
+Allow: /privacy-policy.html
+Allow: /cookie-policy.html
+Allow: /assets/
+
+# Désactiver l'accès aux documents sensibles (si en root)
+Disallow: /docs/
+Disallow: /*.pdf
+Disallow: /admin/
+Disallow: /config/
+
+# Sitemap
+Sitemap: https://example.com/sitemap.xml
+
+# Contrôle de la fréquence de crawl
+Crawl-delay: 1
+
+# Google-specific rules
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /

@@ -1,0 +1,14 @@
+{
+  "name": "association-website",
+  "version": "1.0.0",
+  "description": "Site web pour l'association",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 3000 --bind 127.0.0.1 --directory public",
+    "build": "echo 'Static site: no build step required'",
+    "start": "npm run dev"
+  },
+  "keywords": ["association", "website"],
+  "author": "",
+  "license": "MIT"
+}
